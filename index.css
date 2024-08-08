@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.about{
+    width: 95%;
+    height: 40rem;
+    background-color: #c4ecfe;
+    margin: 2rem;
+    border-radius: 2rem;
+    z-index: +1;
+    text-align:left;
+    padding: 5rem;
+}
+em{
+    color: #7d2ae8;
+}
+.area{
+    gap: 2rem;
+}
+.heading{
+    font-size: xx-large;
+    text-align: left;
+}
+
+.touch{
+    width: 95%;
+    height: 40rem;
+    background-color:#c4ecfe;;
+    color: #985be7da;
+    border-radius: 2rem;
+    margin: 2rem;
+    padding: 5rem;
+    text-align:left;
+    gap: 2rem;
+
+}
+.text h1{
+    font-size: xx-large;
+    font-weight: bolder;
+    color:#7d2ae8;
+}
+.text p{
+    font-size: x-large;
+    font-weight: bold;
+    color:rgb(32, 30, 30);
+}
+.others h2{
+    font-size: x-large;
+    font-weight: bold;
+    color:rgb(32, 30, 30);
+}
+.links a{
+    color: #7d2ae8;
+    text-decoration: none;
+    font-size: large;
+}
+.others p{
+    color: #7d2ae8;
+    text-decoration: none;
+    font-size: large;
+}
+
+.links a:hover{
+    color:black;
+    text-decoration: underline;
+    text-decoration-color:black ;
+    
+}
+.project a{
+    text-decoration: none;
+    color: wheat;
+    font-size: large;
+    font-weight: bold;
+}
+.pro h1{
+    font-size: xx-large;
+    font-weight: bolder;
+    color:white;
+}
+
+.logo {
+    font-size: 2em;
+    color: #555;
+    cursor: default;
+}
+.logo span {
+    color: #7d2ae8;
+}
+.navigation {
+    margin-left: -300px;
+    scroll-behavior:unset;
+}
+.navigation a {
+    font-size: 1.1em;
+    color: #555;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+    transition: .3s;
+    
+}
+.navigation a:hover {
+    color: #7d2ae8;
+}
+
+.btn-talk {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 35px;
+    background: #7d2ae8;
+    border-radius: 10px;
+    border: 2px solid #7d2ae8;
+    font-weight: 500;
+    transition: .3s;
+}
+.btn-talk:hover {
+    color: #7d2ae8;
+    background: transparent;
+}
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* background: url("portfolio\ photo.jpg"); */ 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 30px 10px;
+    margin-left:3rem ;
+}
+.img{
+    margin-top: 10rem;
+    margin-right: 15rem;
+    border:4px solid  #fedec4;
+    z-index: -1;
+       
+}
+
+.content {
+    max-width: 500px;
+    color: #555;
+}
+
+.project a:hover{
+    text-decoration: underline;
+    text-decoration-color:white ;
+    color: white;
+}
+.content h2 {
+    font-size: 3em;
+}
+.content h2 span {
+    color: #7d2ae8;
+}
+.content h4 {
+    font-size: 2em;
+}
+.content p {
+    padding: 10px 0 40px 0;
+}
+
+.social-icons {
+    position: absolute;
+    bottom: 50px;
+}
+.social-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: #7d2ae8;
+    border-radius: 50%;
+    margin-right: 22px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid #fff;
+    outline: 2px solid #7d2ae8;
+    transition: .3s;
+}
+.social-icons a:hover {
+    transform: translateY(-5px);
+}
+.social-icons a i {
+    color: #fff;
+}
